@@ -4,7 +4,7 @@ const http = require('http').Server(app);
 const mongoose=require('mongoose');
 
 
-mongoose.connect("mongodb+srv://sanskrutikhedkar21:newPass345@cluster0.6ye6lo6.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0");
+mongoose.connect("mongodb+srv://sanskrutikhedkar21:<password>@cluster0.6ye6lo6.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0");
 
 const User = require('./models/userModel');
 
